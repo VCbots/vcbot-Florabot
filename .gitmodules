@@ -1,0 +1,9 @@
+[submodule "FloraBot/Plugins/bilibili-plugin"]
+	path = FloraBot/Plugins/bilibili-plugin
+	url = https://github.com/VCBot-Florabot/bilibili-plugin.git
+[submodule "FloraBot/Plugins/zuanbot-plugin"]
+	path = FloraBot/Plugins/zuanbot-plugin
+	url = https://github.com/VCBot-Florabot/zuanbot-plugin.git
+[submodule "FloraBot/Plugins/randomanimal"]
+	path = FloraBot/Plugins/randomanimal
+	url = https://github.com/VCBot-Florabot/random-animal-plugin.git
