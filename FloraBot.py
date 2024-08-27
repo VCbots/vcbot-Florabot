@@ -247,4 +247,7 @@ if __name__ == "__main__":
     print(f"欢迎使用 FloraBot {flora_version}")
     print("\033[93m声明: 插件为第三方内容, 请您自行分辨是否为恶意插件, 若被恶意插件入侵/破坏了您的设备或恶意盗取了您的信息, 造成的损失请自负, FloraBot 作者概不负责也无义务负责!!!\033[0m")
     load_plugins()
-    flora_server.run(host=flora_host, port=flora_port)
+    try:
+        flora_server.run(host=flora_host, port=flora_port)
+    finally:
+        os._exit(0)
