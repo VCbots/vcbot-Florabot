@@ -7,3 +7,6 @@
 [submodule "FloraBot/Plugins/randomanimal"]
 	path = FloraBot/Plugins/randomanimal
 	url = https://github.com/VCBot-Florabot/random-animal-plugin.git
+[submodule "FloraBot/Plugins/lolicon-plugin"]
+        path = FloraBot/Plugins/lolicon-plugin
+        url = https://github.com/VCBot-Florabot/lolicon-plugin.git
